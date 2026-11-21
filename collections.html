@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the VÉLORA clothing and accessories collection.">
+  <title>Collections | VÉLORA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">A LITTLE SOMETHING FOR YOU — GET 15% OFF YOUR FIRST ORDER</div>
+  <header class="site-header">
+    <a class="logo" href="index.html">VÉLORA<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav"><a href="index.html">Home</a><a class="active" href="collections.html">Collections</a><a href="contact.html">Contact</a></nav>
+    <a class="header-cta" href="contact.html">Need help? <span>↗</span></a>
+  </header>
+
+  <main class="collection-page">
+    <section class="collection-intro">
+      <p class="eyebrow">THE VÉLORA EDIT</p>
+      <h1>Find your <em>everyday style.</em></h1>
+      <p>Pieces to mix, match and make your own.</p>
+    </section>
+    <div class="collection-layout">
+      <aside class="filter-sidebar">
+        <div class="filter-title"><h2>Filters</h2><button id="clearFilters" class="clear-button" type="button">Clear all</button></div>
+        <div class="filter-group">
+          <h3>Category</h3>
+          <label><input type="checkbox" name="category" value="Women"> Women</label>
+          <label><input type="checkbox" name="category" value="Men"> Men</label>
+          <label><input type="checkbox" name="category" value="Accessories"> Accessories</label>
+        </div>
+        <div class="filter-group">
+          <h3>Occasion</h3>
+          <label><input type="checkbox" name="occasion" value="Casual"> Casual</label>
+          <label><input type="checkbox" name="occasion" value="Party"> Party</label>
+          <label><input type="checkbox" name="occasion" value="Summer"> Summer</label>
+          <label><input type="checkbox" name="occasion" value="Formal"> Formal</label>
+        </div>
+        <div class="filter-group">
+          <h3>Colour</h3>
+          <label><input type="checkbox" name="color" value="Black"> Black</label>
+          <label><input type="checkbox" name="color" value="White"> White</label>
+          <label><input type="checkbox" name="color" value="Blue"> Blue</label>
+          <label><input type="checkbox" name="color" value="Green"> Green</label>
+          <label><input type="checkbox" name="color" value="Beige"> Beige</label>
+        </div>
+        <div class="filter-group">
+          <h3>Price range</h3>
+          <label><input type="radio" name="price" value="all" checked> All prices</label>
+          <label><input type="radio" name="price" value="under500"> Under ₹500</label>
+          <label><input type="radio" name="price" value="500to1000"> ₹500 – ₹1,000</label>
+          <label><input type="radio" name="price" value="above1000"> Above ₹1,000</label>
+        </div>
+      </aside>
+
+      <section class="collection-results">
+        <div class="collection-toolbar">
+          <div class="search-box"><input id="searchInput" type="search" placeholder="Search for a product..." aria-label="Search products"><span>⌕</span></div>
+          <label class="sort-label" for="sortSelect">Sort by
+            <select id="sortSelect">
+              <option value="featured">Featured</option>
+              <option value="low">Price: low to high</option>
+              <option value="high">Price: high to low</option>
+              <option value="az">Name: A to Z</option>
+            </select>
+          </label>
+        </div>
+        <div class="results-meta"><p id="resultCount" aria-live="polite">Loading products...</p><p>Thoughtfully picked for you</p></div>
+        <div class="product-grid collection-products" id="productGrid"></div>
+        <div class="empty-state" id="emptyState" hidden><span>♡</span><h2>No products found</h2><p>Try another search or clear some filters.</p><button class="button button-dark" id="emptyClear" type="button">Clear filters</button></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div><a class="logo logo-light" href="index.html">VÉLORA<span>.</span></a><p>Wear your confidence. Find your everyday favourite.</p></div>
+    <div class="footer-links"><a href="index.html">Home</a><a href="collections.html">Collections</a><a href="contact.html">Contact</a><a href="mailto:hello@velora.example">Email us</a></div>
+    <div class="footer-bottom"><span>© 2026 VÉLORA. Student project.</span><span>Instagram&nbsp; · &nbsp;Pinterest</span></div>
+  </footer>
+</body>
+</html>
