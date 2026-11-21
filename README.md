@@ -17,13 +17,8 @@ A responsive fashion storefront built with HTML, CSS and JavaScript.
 - Clear all filters and no-results message
 - Newsletter and contact form demo interactions
 
-## Run locally
-1. Download or clone this project.
-2. Open the folder in VS Code.
-3. Open `index.html` in your browser, or use the Live Server extension.
 
 ## Technologies
-HTML5, CSS3 and Vanilla JavaScript.
+HTML5, CSS3 and JavaScript.
 
-## Note
-This is a front-end assignment project. Product information is sample data, product images are loaded from Unsplash, and the newsletter/contact forms do not submit data to a backend.
+
