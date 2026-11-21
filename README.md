@@ -2,6 +2,10 @@
 
 A responsive fashion storefront built with HTML, CSS and JavaScript.
 
+## Live Demo
+
+[View VÉLORA Website](https://jeya-0309.github.io/Nostra-Project/)
+
 ## Pages
 - `index.html` – Home page
 - `collections.html` – Product collection with search, filters and sorting
@@ -17,8 +21,5 @@ A responsive fashion storefront built with HTML, CSS and JavaScript.
 - Clear all filters and no-results message
 - Newsletter and contact form demo interactions
 
-
 ## Technologies
 HTML5, CSS3 and JavaScript.
-
-
